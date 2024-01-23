@@ -1,14 +1,15 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
-import SignUpForm from "./SignUpForm";
+// App.js
+
+import React from 'react';
+import SignupForm from './SignupForm';
 
 const App = () => {
   return (
-    <div id="main">
-      <SignUpForm />
+    <div>
+      <h1>Signup Form</h1>
+      <SignupForm />
     </div>
-  )
-}
-
+  );
+};
 
 export default App;
